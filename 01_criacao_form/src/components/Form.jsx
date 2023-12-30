@@ -48,7 +48,7 @@ const Form = () => {
       <form action="" onSubmit={handleSubmit(validacaoSenha)}>
         <h1>Validação de Senha</h1>
         <label htmlFor="senha">Senha</label>
-        <input
+        <input 
           type="password"
           name="senha"
           placeholder="Senha"
