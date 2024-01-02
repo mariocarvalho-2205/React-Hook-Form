@@ -28,7 +28,7 @@ const Form = () => {
           id="name"
           {...register("name", {
             minLength: {
-              value: 3,
+              value: 4,
               message: "Precisa ter no minimo 3 caracteres",
             },
           })}
@@ -47,7 +47,7 @@ const Form = () => {
             },
           })}
         />
-        <p className="errors">{errors.social?.message}</p>
+        <p className="errors">{errors.social?.face.message}</p>
         <button>Submit</button>
       </form>
 
